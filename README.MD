@@ -43,8 +43,8 @@ streamlit run app.py
 ```
 
    🔧 **How the Model Works**
-- **Preprocessing**: Standardization applied to `Amount` and `Hour`.
-- **Training**: XGBoost classifier trained with undersampling for imbalance mitigation.
+- **Preprocessing**: Standardization applied to `Hour`.
+- **Training**: XGBoost classifier trained with oversampling for imbalance mitigation.
 - **Feature Engineering**: PCA components and derived transaction hour.
 - **Prediction**: Fraud likelihood computed from user-input transaction details.
 
